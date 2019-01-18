@@ -2,7 +2,7 @@
 
 namespace CoffeeMachine\Interfaces;
 
-use CoffeeMachine\Exception\HaventEnoughMoney;
+use CoffeeMachine\Exceptions\HaventEnoughMoney;
 
 Interface DrinkMachineInterface
 {
