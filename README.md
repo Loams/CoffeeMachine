@@ -1,8 +1,8 @@
-#Coffee Machine
+# Coffee Machine
 
 This small project aims to create a coffee machine in php
 
-##How to use it
+## How to use it
 
 How to add money
 ```php
@@ -26,7 +26,7 @@ $coffeeMachine->displayAmount()
 $coffeeMachine->recoverAmount();
 ```
 
-##Create a new Drink
+## Create a new Drink
 
 You have to create a new class that extends ``Drink`` and define into constructor the price like this
 You can define into your class the consomable needed
@@ -49,7 +49,7 @@ class Tea extends Drink
 }
 ```
 
-##Create a new Consumable
+## Create a new Consumable
 
 You have to create a new class that extends ``AbstractConsumable`` and define your method ``getMax()`` and ``getMin()`` like this 
 ```
