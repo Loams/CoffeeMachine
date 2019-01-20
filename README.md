@@ -29,7 +29,8 @@ $coffeeMachine->recoverAmount();
 ## Create a new Drink
 
 You have to create a new class that extends ``Drink`` and define into constructor the price like this
-You can define into your class the consomable needed
+
+You can define into your class the consumable needed into the constructor
 ```
 class Tea extends Drink
 {
